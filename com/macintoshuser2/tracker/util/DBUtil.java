@@ -14,9 +14,9 @@ public class DBUtil {
 			return connection;
 		} else {
 			try {
-				String url = "jdbc:mysql://localhost:3306/Grades";
-				String username = "root";
-				String password = "sesame";
+				String url = "jdbc:mysql://localhost:3306/<DB Name Here>";
+				String username = "";
+				String password = "";
 				
 				connection = DriverManager.getConnection(url, username, password);
 				return connection;
